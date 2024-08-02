@@ -10,7 +10,25 @@
 		F497F7812C5B9A1A00E8E1EF /* Jugabit_SubscriptionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7802C5B9A1A00E8E1EF /* Jugabit_SubscriptionsApp.swift */; };
 		F497F7832C5B9A1A00E8E1EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7822C5B9A1A00E8E1EF /* ContentView.swift */; };
 		F497F7852C5B9A1E00E8E1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F497F7842C5B9A1E00E8E1EF /* Assets.xcassets */; };
-		F497F7882C5B9A1E00E8E1EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F497F7872C5B9A1E00E8E1EF /* Preview Assets.xcassets */; };
+		F497F78F2C5B9A7400E8E1EF /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F78E2C5B9A7300E8E1EF /* SubscriptionModel.swift */; };
+		F497F7912C5B9A9A00E8E1EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7902C5B9A9A00E8E1EF /* OnboardingView.swift */; };
+		F497F7952C5B9AF900E8E1EF /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7942C5B9AF900E8E1EF /* SubscriptionsView.swift */; };
+		F497F7972C5B9B0E00E8E1EF /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7962C5B9B0E00E8E1EF /* AddSubscriptionView.swift */; };
+		F497F7992C5B9CD300E8E1EF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7982C5B9CD300E8E1EF /* ImagePicker.swift */; };
+		F497F79B2C5BA04F00E8E1EF /* EditSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F79A2C5BA04F00E8E1EF /* EditSubscriptionView.swift */; };
+		F497F7A02C5BA56B00E8E1EF /* SuperTabBar in Frameworks */ = {isa = PBXBuildFile; productRef = F497F79F2C5BA56B00E8E1EF /* SuperTabBar */; };
+		F497F7A22C5BA72400E8E1EF /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7A12C5BA72400E8E1EF /* MainTab.swift */; };
+		F497F7A42C5BABB200E8E1EF /* MainTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7A32C5BABB200E8E1EF /* MainTabBarStyle.swift */; };
+		F497F7A62C5BABFB00E8E1EF /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7A52C5BABFB00E8E1EF /* MainTabBarView.swift */; };
+		F497F7AA2C5BB08300E8E1EF /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7A92C5BB08300E8E1EF /* InformationView.swift */; };
+		F497F7AE2C5BB21400E8E1EF /* PeriodSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7AD2C5BB21400E8E1EF /* PeriodSelectionView.swift */; };
+		F497F7B52C5BC22600E8E1EF /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7B42C5BC22600E8E1EF /* BarChartView.swift */; };
+		F497F7B82C5BC5AF00E8E1EF /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7B72C5BC5AF00E8E1EF /* PieSliceData.swift */; };
+		F497F7BA2C5BC5BE00E8E1EF /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7B92C5BC5BE00E8E1EF /* PieSliceView.swift */; };
+		F497F7BC2C5C1E6700E8E1EF /* FileManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497F7BB2C5C1E6700E8E1EF /* FileManagerHelper.swift */; };
+		F497F7C02C5CA56C00E8E1EF /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = F497F7BF2C5CA56C00E8E1EF /* list.json */; };
+		F497F7C32C5CA5B100E8E1EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F497F7C22C5CA5B100E8E1EF /* Lottie */; };
+		F497F7C82C5CABB800E8E1EF /* loop.json in Resources */ = {isa = PBXBuildFile; fileRef = F497F7C72C5CABB800E8E1EF /* loop.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +36,23 @@
 		F497F7802C5B9A1A00E8E1EF /* Jugabit_SubscriptionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugabit_SubscriptionsApp.swift; sourceTree = "<group>"; };
 		F497F7822C5B9A1A00E8E1EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F497F7842C5B9A1E00E8E1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F497F7872C5B9A1E00E8E1EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F497F78E2C5B9A7300E8E1EF /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		F497F7902C5B9A9A00E8E1EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F497F7942C5B9AF900E8E1EF /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		F497F7962C5B9B0E00E8E1EF /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		F497F7982C5B9CD300E8E1EF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F497F79A2C5BA04F00E8E1EF /* EditSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSubscriptionView.swift; sourceTree = "<group>"; };
+		F497F7A12C5BA72400E8E1EF /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		F497F7A32C5BABB200E8E1EF /* MainTabBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarStyle.swift; sourceTree = "<group>"; };
+		F497F7A52C5BABFB00E8E1EF /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		F497F7A92C5BB08300E8E1EF /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		F497F7AD2C5BB21400E8E1EF /* PeriodSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodSelectionView.swift; sourceTree = "<group>"; };
+		F497F7B42C5BC22600E8E1EF /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		F497F7B72C5BC5AF00E8E1EF /* PieSliceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceData.swift; sourceTree = "<group>"; };
+		F497F7B92C5BC5BE00E8E1EF /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		F497F7BB2C5C1E6700E8E1EF /* FileManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerHelper.swift; sourceTree = "<group>"; };
+		F497F7BF2C5CA56C00E8E1EF /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		F497F7C72C5CABB800E8E1EF /* loop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loop.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497F7A02C5BA56B00E8E1EF /* SuperTabBar in Frameworks */,
+				F497F7C32C5CA5B100E8E1EF /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,20 +87,60 @@
 		F497F77F2C5B9A1A00E8E1EF /* Jugabit-Subscriptions */ = {
 			isa = PBXGroup;
 			children = (
+				F497F7C62C5CAA7A00E8E1EF /* Model */,
+				F497F7BD2C5CA54100E8E1EF /* Resources */,
+				F497F7B62C5BC59500E8E1EF /* BarChart */,
+				F497F7982C5B9CD300E8E1EF /* ImagePicker.swift */,
 				F497F7802C5B9A1A00E8E1EF /* Jugabit_SubscriptionsApp.swift */,
 				F497F7822C5B9A1A00E8E1EF /* ContentView.swift */,
-				F497F7842C5B9A1E00E8E1EF /* Assets.xcassets */,
-				F497F7862C5B9A1E00E8E1EF /* Preview Content */,
+				F497F7902C5B9A9A00E8E1EF /* OnboardingView.swift */,
+				F497F7AD2C5BB21400E8E1EF /* PeriodSelectionView.swift */,
+				F497F7942C5B9AF900E8E1EF /* SubscriptionsView.swift */,
+				F497F7A92C5BB08300E8E1EF /* InformationView.swift */,
+				F497F7962C5B9B0E00E8E1EF /* AddSubscriptionView.swift */,
+				F497F79A2C5BA04F00E8E1EF /* EditSubscriptionView.swift */,
+				F497F7A12C5BA72400E8E1EF /* MainTab.swift */,
+				F497F7A32C5BABB200E8E1EF /* MainTabBarStyle.swift */,
+				F497F7A52C5BABFB00E8E1EF /* MainTabBarView.swift */,
+				F497F7BB2C5C1E6700E8E1EF /* FileManagerHelper.swift */,
 			);
 			path = "Jugabit-Subscriptions";
 			sourceTree = "<group>";
 		};
-		F497F7862C5B9A1E00E8E1EF /* Preview Content */ = {
+		F497F7B62C5BC59500E8E1EF /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
-				F497F7872C5B9A1E00E8E1EF /* Preview Assets.xcassets */,
+				F497F7B42C5BC22600E8E1EF /* BarChartView.swift */,
+				F497F7B72C5BC5AF00E8E1EF /* PieSliceData.swift */,
+				F497F7B92C5BC5BE00E8E1EF /* PieSliceView.swift */,
 			);
-			path = "Preview Content";
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		F497F7BD2C5CA54100E8E1EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F497F7BE2C5CA54F00E8E1EF /* Lottie-Files */,
+				F497F7842C5B9A1E00E8E1EF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F497F7BE2C5CA54F00E8E1EF /* Lottie-Files */ = {
+			isa = PBXGroup;
+			children = (
+				F497F7C72C5CABB800E8E1EF /* loop.json */,
+				F497F7BF2C5CA56C00E8E1EF /* list.json */,
+			);
+			path = "Lottie-Files";
+			sourceTree = "<group>";
+		};
+		F497F7C62C5CAA7A00E8E1EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F497F78E2C5B9A7300E8E1EF /* SubscriptionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,10 @@
 			dependencies = (
 			);
 			name = "Jugabit-Subscriptions";
+			packageProductDependencies = (
+				F497F79F2C5BA56B00E8E1EF /* SuperTabBar */,
+				F497F7C22C5CA5B100E8E1EF /* Lottie */,
+			);
 			productName = "Jugabit-Subscriptions";
 			productReference = F497F77D2C5B9A1A00E8E1EF /* Jugabit-Subscriptions.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,10 @@
 				Base,
 			);
 			mainGroup = F497F7742C5B9A1A00E8E1EF;
+			packageReferences = (
+				F497F79E2C5BA56B00E8E1EF /* XCRemoteSwiftPackageReference "SuperTabBar" */,
+				F497F7C12C5CA5B100E8E1EF /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = F497F77E2C5B9A1A00E8E1EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F497F7882C5B9A1E00E8E1EF /* Preview Assets.xcassets in Resources */,
 				F497F7852C5B9A1E00E8E1EF /* Assets.xcassets in Resources */,
+				F497F7C02C5CA56C00E8E1EF /* list.json in Resources */,
+				F497F7C82C5CABB800E8E1EF /* loop.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497F7AA2C5BB08300E8E1EF /* InformationView.swift in Sources */,
+				F497F79B2C5BA04F00E8E1EF /* EditSubscriptionView.swift in Sources */,
 				F497F7832C5B9A1A00E8E1EF /* ContentView.swift in Sources */,
+				F497F7972C5B9B0E00E8E1EF /* AddSubscriptionView.swift in Sources */,
+				F497F7912C5B9A9A00E8E1EF /* OnboardingView.swift in Sources */,
+				F497F7B52C5BC22600E8E1EF /* BarChartView.swift in Sources */,
+				F497F7BA2C5BC5BE00E8E1EF /* PieSliceView.swift in Sources */,
+				F497F7A62C5BABFB00E8E1EF /* MainTabBarView.swift in Sources */,
+				F497F7B82C5BC5AF00E8E1EF /* PieSliceData.swift in Sources */,
+				F497F7BC2C5C1E6700E8E1EF /* FileManagerHelper.swift in Sources */,
+				F497F7952C5B9AF900E8E1EF /* SubscriptionsView.swift in Sources */,
+				F497F7992C5B9CD300E8E1EF /* ImagePicker.swift in Sources */,
+				F497F7A22C5BA72400E8E1EF /* MainTab.swift in Sources */,
+				F497F7A42C5BABB200E8E1EF /* MainTabBarStyle.swift in Sources */,
+				F497F78F2C5B9A7400E8E1EF /* SubscriptionModel.swift in Sources */,
 				F497F7812C5B9A1A00E8E1EF /* Jugabit_SubscriptionsApp.swift in Sources */,
+				F497F7AE2C5BB21400E8E1EF /* PeriodSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +371,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Jugabit-Subscriptions/Preview Content\"";
 				DEVELOPMENT_TEAM = 94FVSLY3WZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +399,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Jugabit-Subscriptions/Preview Content\"";
 				DEVELOPMENT_TEAM = 94FVSLY3WZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -344,6 +442,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F497F79E2C5BA56B00E8E1EF /* XCRemoteSwiftPackageReference "SuperTabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daniil108/SuperTabBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F497F7C12C5CA5B100E8E1EF /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F497F79F2C5BA56B00E8E1EF /* SuperTabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F497F79E2C5BA56B00E8E1EF /* XCRemoteSwiftPackageReference "SuperTabBar" */;
+			productName = SuperTabBar;
+		};
+		F497F7C22C5CA5B100E8E1EF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F497F7C12C5CA5B100E8E1EF /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F497F7752C5B9A1A00E8E1EF /* Project object */;
 }
