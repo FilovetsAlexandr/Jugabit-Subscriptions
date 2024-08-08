@@ -29,6 +29,10 @@
 		F497F7C02C5CA56C00E8E1EF /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = F497F7BF2C5CA56C00E8E1EF /* list.json */; };
 		F497F7C32C5CA5B100E8E1EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F497F7C22C5CA5B100E8E1EF /* Lottie */; };
 		F497F7C82C5CABB800E8E1EF /* loop.json in Resources */ = {isa = PBXBuildFile; fileRef = F497F7C72C5CABB800E8E1EF /* loop.json */; };
+		F4FD64A52C64E1520076B731 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F4FD64A42C64E1520076B731 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		F4FD64A72C64E1520076B731 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F4FD64A62C64E1520076B731 /* FirebaseMessaging */; };
+		F4FD64A92C64E1520076B731 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = F4FD64A82C64E1520076B731 /* FirebaseRemoteConfig */; };
+		F4FD64AB2C64E2720076B731 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4FD64AA2C64E2720076B731 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,9 @@
 		F497F7BB2C5C1E6700E8E1EF /* FileManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerHelper.swift; sourceTree = "<group>"; };
 		F497F7BF2C5CA56C00E8E1EF /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
 		F497F7C72C5CABB800E8E1EF /* loop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loop.json; sourceTree = "<group>"; };
+		F4FD64AA2C64E2720076B731 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4FD64AC2C64E2B20076B731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F4FD64AD2C64E3000076B731 /* Jugabit-Subscriptions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jugabit-Subscriptions.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FD64A72C64E1520076B731 /* FirebaseMessaging in Frameworks */,
 				F497F7A02C5BA56B00E8E1EF /* SuperTabBar in Frameworks */,
+				F4FD64A52C64E1520076B731 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				F497F7C32C5CA5B100E8E1EF /* Lottie in Frameworks */,
+				F4FD64A92C64E1520076B731 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +97,9 @@
 		F497F77F2C5B9A1A00E8E1EF /* Jugabit-Subscriptions */ = {
 			isa = PBXGroup;
 			children = (
+				F4FD64AD2C64E3000076B731 /* Jugabit-Subscriptions.entitlements */,
+				F4FD64AC2C64E2B20076B731 /* Info.plist */,
+				F4FD64AA2C64E2720076B731 /* GoogleService-Info.plist */,
 				F497F7C62C5CAA7A00E8E1EF /* Model */,
 				F497F7BD2C5CA54100E8E1EF /* Resources */,
 				F497F7B62C5BC59500E8E1EF /* BarChart */,
@@ -162,6 +175,9 @@
 			packageProductDependencies = (
 				F497F79F2C5BA56B00E8E1EF /* SuperTabBar */,
 				F497F7C22C5CA5B100E8E1EF /* Lottie */,
+				F4FD64A42C64E1520076B731 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				F4FD64A62C64E1520076B731 /* FirebaseMessaging */,
+				F4FD64A82C64E1520076B731 /* FirebaseRemoteConfig */,
 			);
 			productName = "Jugabit-Subscriptions";
 			productReference = F497F77D2C5B9A1A00E8E1EF /* Jugabit-Subscriptions.app */;
@@ -194,6 +210,7 @@
 			packageReferences = (
 				F497F79E2C5BA56B00E8E1EF /* XCRemoteSwiftPackageReference "SuperTabBar" */,
 				F497F7C12C5CA5B100E8E1EF /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				F4FD64A32C64E1520076B731 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = F497F77E2C5B9A1A00E8E1EF /* Products */;
 			projectDirPath = "";
@@ -212,6 +229,7 @@
 				F497F7852C5B9A1E00E8E1EF /* Assets.xcassets in Resources */,
 				F497F7C02C5CA56C00E8E1EF /* list.json in Resources */,
 				F497F7C82C5CABB800E8E1EF /* loop.json in Resources */,
+				F4FD64AB2C64E2720076B731 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,12 +387,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jugabit-Subscriptions/Jugabit-Subscriptions.entitlements";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Jugabit Subs";
+				INFOPLIST_FILE = "Jugabit-Subscriptions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jugabit Subscriptions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -385,6 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jugabit.subscriptions.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -403,12 +424,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jugabit-Subscriptions/Jugabit-Subscriptions.entitlements";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Jugabit Subs";
+				INFOPLIST_FILE = "Jugabit-Subscriptions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jugabit Subscriptions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jugabit.subscriptions.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -472,6 +496,14 @@
 				minimumVersion = 4.5.0;
 			};
 		};
+		F4FD64A32C64E1520076B731 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -484,6 +516,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F497F7C12C5CA5B100E8E1EF /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		F4FD64A42C64E1520076B731 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4FD64A32C64E1520076B731 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		F4FD64A62C64E1520076B731 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4FD64A32C64E1520076B731 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		F4FD64A82C64E1520076B731 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4FD64A32C64E1520076B731 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
