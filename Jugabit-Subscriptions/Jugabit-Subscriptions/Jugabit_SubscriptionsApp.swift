@@ -127,5 +127,6 @@ class FirebaseService: ObservableObject {
         let arr = remoteConfig.configValue(forKey: key.rawValue).stringValue
         return arr.components(separatedBy: "\n") ?? []
     }
+    
 }
 
