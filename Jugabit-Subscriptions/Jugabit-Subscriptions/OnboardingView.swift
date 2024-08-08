@@ -12,7 +12,7 @@ struct OnboardingView: View {
     @Binding var showOnboarding: Bool
     var body: some View {
         VStack {
-            Spacer()
+//            Spacer()
             Text("Welcome to Jugabit Subscription Manager")
                 .font(.largeTitle)
                 .fontWeight(.bold)
@@ -30,9 +30,9 @@ struct OnboardingView: View {
                     .font(.headline)
                     .padding()
                     .frame(maxWidth: .infinity)
-                    .background(Color.black)
+                    .background(Color.indigo)
                     .foregroundColor(.white)
-                    .cornerRadius(10)
+                    .cornerRadius(30)
                     .padding(.horizontal)
             }
         }

@@ -37,7 +37,8 @@ struct EditSubscriptionView: View {
                         Button(action: {
                             showingImagePicker = true
                         }) {
-                            Text("Choose Icon")
+                            Image(systemName: "photo")
+                                 .foregroundColor(.indigo)
                         }
                     }
                 }
@@ -52,9 +53,9 @@ struct EditSubscriptionView: View {
                         .font(.headline)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue)
+                        .background(Color.indigo)
                         .foregroundColor(.white)
-                        .cornerRadius(10)
+                        .cornerRadius(30)
                         .padding(.horizontal)
                 }
             }

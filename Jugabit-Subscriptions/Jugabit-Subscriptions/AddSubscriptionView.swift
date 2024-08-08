@@ -44,7 +44,7 @@ struct AddSubscriptionView: View {
                             showingImagePicker = true
                         }) {
                            Image(systemName: "photo")
-                                .foregroundColor(.black)
+                                .foregroundColor(.indigo)
                         }
                     }
                     PeriodSelectionView(selectedPeriod: $selectedPeriod)
@@ -62,9 +62,9 @@ struct AddSubscriptionView: View {
                         .font(.headline)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.black)
+                        .background(Color.indigo)
                         .foregroundColor(.white)
-                        .cornerRadius(10)
+                        .cornerRadius(30)
                         .padding(.horizontal)
                 }
             }
